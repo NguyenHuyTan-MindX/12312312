@@ -39,7 +39,7 @@ https://dashboard.nexmo.com/sign-up
 ## Getting Started
 To set up the project, go along with the following steps:-
 - Clone the repository. <br/>
-`$ git clone https://github.com/1209simran/Land-Registry-Application.git`
+`$ git clone https://github.com/zirea3l/Blockchain-land-registery.git`
 - Go to the directory with the repository. <br/>
 `$ cd folder_name`
 - Run **npm install** (or **yarn install** if you use yarn) to download the npm packages. <br/>
