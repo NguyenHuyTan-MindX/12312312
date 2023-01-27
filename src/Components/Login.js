@@ -66,6 +66,8 @@ class Login extends Component {
     this.setState({ [name]: event.target.value })
   }
   handleSubmit = async () => {
+
+    console.log('lozzzz');
     let data = {
       address: this.state.address,
     }

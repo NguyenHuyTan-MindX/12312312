@@ -8,7 +8,7 @@ import axios from 'axios'
 import { withRouter, Redirect } from 'react-router-dom'
 import Land from '../abis/LandRegistry.json'
 import { withStyles } from '@material-ui/core/styles'
-
+import { API_URL } from '../Components/constant/common.constant'
 const styles = () => ({
   root: {
     position: 'absolute',
@@ -71,7 +71,7 @@ class Login extends Component {
       password: this.state.password,
     }
     if (this.state.username && this.state.password) {
-      axios.post('http://localhost:3001/login', data).then((response) => {
+      axios.post(API_URL.LOGIN, data).then((response) => {
         if (response.status == 200) {
           window.alert('Login Successful')
           window.localStorage.setItem('authenticated', true)

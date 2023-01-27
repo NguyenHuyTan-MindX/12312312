@@ -77,10 +77,16 @@ class Register extends Component {
     console.log(propertyId)
   }
 
+
   async Register(data, account, laddress, lamount) {
+
+    console.log(data);
+    // console.log(account);
+    // console.log(laddress);
+    // console.log(lamount);
     var buf = Buffer.from(JSON.stringify(data))
     ipfs.files.add(buf, (error, result) => {
-      console.log('Ipfs result', result)
+      console.log('Ipfs result', error)
       if (error) {
         console.error(error)
         return

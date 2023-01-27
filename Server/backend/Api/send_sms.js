@@ -12,7 +12,7 @@ const nexmo = new Nexmo(
 )
 
 exports.send_sms = function (number, text) {
-  const to = '91' + number
+  const to = '84' + number
   const from = 'Land Registry'
   console.log(number, text)
   nexmo.message.sendSms(from, to, text, (err, responseData) => {

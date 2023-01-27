@@ -59,7 +59,7 @@
   "sourceMap": "69:360:1:-;;;171:58;8:9:-1;5:2;;;30:1;27;20:12;5:2;171:58:1;211:10;203:5;;:18;;;;;;;;;;;;;;;;;;69:360;;;;;;",
   "deployedSourceMap": "69:360:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;69:360:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;123:39;;;:::i;:::-;;;;;;;;;;;;;;;;;;;96:20;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;312:114;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;312:114:1;;;;;;;;;;;;;;;;;:::i;:::-;;123:39;;;;:::o;96:20::-;;;;;;;;;;;;;:::o;312:114::-;288:5;;;;;;;;;;;274:19;;:10;:19;;;270:26;;;409:9;382:24;:36;;;;270:26;312:114;:::o",
   "source": "// SPDX-License-Identifier: MIT\r\npragma solidity >=0.4.21 <0.7.0;\r\n\r\ncontract Migrations {\r\n    address public owner;\r\n    uint256 public last_completed_migration;\r\n\r\n    constructor() public {\r\n        owner = msg.sender;\r\n    }\r\n\r\n    modifier restricted() {\r\n        if (msg.sender == owner) _;\r\n    }\r\n\r\n    function setCompleted(uint256 completed) public restricted {\r\n        last_completed_migration = completed;\r\n    }\r\n}\r\n",
-  "sourcePath": "C:\\Users\\piyus\\Documents\\GitHub\\Land-Registry-Application\\src\\contracts\\Migrations.sol",
+  "sourcePath": "C:\\Nghuytan\\KLTN\\dApp\\Blockchain-land-registery\\src\\contracts\\Migrations.sol",
   "ast": {
     "absolutePath": "project:/src/contracts/Migrations.sol",
     "exportedSymbols": {
@@ -958,12 +958,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0xAA06C32D6d240d544C991B668910e7534974f170",
-      "transactionHash": "0x6ec62fd925bf17a14a6dea98fbda6322f20c52ffb04277945d8115c36b18dc01"
+      "address": "0xA5fc3a4334E3F89Dbf634A7aE10c8D5791b8cc28",
+      "transactionHash": "0x1e03a821c15e4d4c39bd66084ad99d91bc6fa84c38c25692b2c996190be13e5d"
     }
   },
-  "schemaVersion": "3.4.4",
-  "updatedAt": "2022-05-25T02:16:01.607Z",
+  "schemaVersion": "3.4.11",
+  "updatedAt": "2023-01-25T15:42:01.098Z",
   "devdoc": {
     "methods": {}
   },

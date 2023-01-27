@@ -8,6 +8,7 @@ import { withStyles } from '@material-ui/core/styles'
 import Web3 from 'web3'
 import jwtDecode from 'jwt-decode'
 
+
 const styles = (theme) => ({
   container: {
     // paddingLedt: '0px',
